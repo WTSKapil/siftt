@@ -1,0 +1,143 @@
+* {
+    font-family: 'Nunito', sans-serif;
+    font-size: 62.5%;
+    padding: 0;
+    margin: 0;
+}
+
+.error-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 64px);
+    text-align: center;
+}
+
+.error-wrapper div img {
+    width: 80%;
+}
+
+.logo-block {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 3rem;
+    text-align: center;
+}
+
+h4 {
+    font-size: 3.6rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+a {
+    background-color: #02A1F5;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.9rem 2.5rem !important;
+    border-radius: 2.2rem;
+    transition: all 300ms ease-in;
+    border: 1px solid transparent;
+    margin-top: 3.6rem;
+    margin-bottom: 0;
+}
+
+a:hover {
+    border: 1px solid#02A1F5;
+    background-color: transparent;
+    transition: all 300ms ease-in;
+    color: #02A1F5;
+}
+
+a.active {
+    color: var(--primary-color) !important;
+    background-color: transparent;
+    border: 1px solid#02A1F5;
+}
+
+.left-pattern-box {
+    position: absolute;
+    bottom: 241px;
+    left: 0;
+    z-index: -1;
+    width: 150px;
+    height: 200px;
+}
+
+.right-pattern-box {
+    position: absolute;
+    right: 0px;
+    top: 40px;
+    text-align: end;
+    z-index: -1;
+}
+
+@media screen and (max-width:1024px) {
+    .error-wrapper {
+        height: calc(100vh - 40px);
+    }
+
+    .error-wrapper div img {
+        width: 50%;
+    }
+
+    .logo {
+        width: 15rem;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .logo {
+        width: 15rem;
+    }
+
+    .error-wrapper div img {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    a {
+        font-size: 1.4rem;
+        padding: 1rem 1.8rem;
+        margin-top: 2.4em;
+    }
+
+    h4 {
+        font-size: 2.4rem;
+    }
+
+    .logo {
+        width: 15rem;
+    }
+
+    .error-wrapper div img {
+        width: 75%;
+    }
+
+    .error-wrapper {
+        height: calc(100vh - 64px);
+    }
+
+    .left-pattern-box, .right-pattern-box {
+        width: 100px;
+        height: 100px;
+    }
+
+    .right-pattern-box>img, .left-pattern-box>img {
+        width: 70%;
+    }
+
+    .left-pattern-box {
+        bottom: 40px;
+    }
+
+    .right-pattern-box {
+        top: 12px;
+    }
+}
