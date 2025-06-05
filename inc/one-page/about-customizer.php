@@ -40,7 +40,7 @@ function about_customizer_settings($wp_customize)
     $wp_customize->add_setting('about_description', array(
         'default'     => 'Siftt is an easy-to-use platform that lets you construct your own online exams in seconds by picking from a robust question bank built by industry professionals, which includes a variety of candidate assessment question kinds and levels of complexity.',
         'transport'   => 'refresh',
-        'sanitize_callback' => 'sanitize_custom_url',
+        'sanitize_callback' => 'sanitize_text_field',
     ));
 
     $wp_customize->add_control('about_description', array(

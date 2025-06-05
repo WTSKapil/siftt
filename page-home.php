@@ -115,7 +115,6 @@ get_header();
 		$testimonial_name_6 = get_theme_mod( 'testimonial_name_6',"Venus Scpeter" );
 		$testimonial_location_6 = get_theme_mod( 'testimonial_location_6',"France" );
 
-
 		$faq_main_title = get_theme_mod( 'faq_main_title',"Frequently Asked " );
 		$faq_highlight_title = get_theme_mod( 'faq_highlight_title',"Questions" );
 
@@ -169,9 +168,8 @@ get_header();
 		</div>
 		<div class="hero-clip"></div>
 		<div class="curve-shape-block">
-			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/shape-lg.svg" alt="">
-		</div>		
-
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/shape-lg.svg" alt="shape">
+		</div>
 	</section>
 
 	<!-- *****************************
@@ -179,8 +177,7 @@ get_header();
 	***************************** -->
 	<section class="about my-80 position-relative overflow-hidden" id="about">
 		<div class="container">
-			<div class="row justify-content-center" data-aos="fade-up" data-aos-duration="600"
-				data-aos-duration="500">
+			<div class="row justify-content-center" data-aos="fade-up" data-aos-duration="600" data-aos-duration="500">
 				<div class="col-md-10">
 					<div class="section-title-content text-center">
 						<h3 class="section-title"><span class="highlight-title"><?php echo $about_highlight_title; ?></span> <?php echo $about_sub_title; ?></h3>
@@ -200,8 +197,7 @@ get_header();
 				</div>
 
 				<div class="col-sm-6 col-6 col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="600" data-aos-duration="500">
-					<div
-						class="about-content-wrapper border-bottom-light border-right-none text-center pb-5 pb-lg-0">
+					<div class="about-content-wrapper border-bottom-light border-right-none text-center pb-5 pb-lg-0">
 						<div class="about-content-img">
 							<img src="<?php echo $about_counter_2; ?>" alt="Siftt" />
 						</div>
@@ -218,8 +214,7 @@ get_header();
 						<span><?php echo $counter_3_title; ?></span>
 					</div>
 				</div>
-				<div class="col-sm-6 col-6 col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="600"
-					data-aos-duration="500">
+				<div class="col-sm-6 col-6 col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="600" data-aos-duration="500">
 					<div class="about-content-wrapper border-bottom-0 border-end-0 text-center pt-5 pt-lg-0">
 						<div class="about-content-img">
 							<img src="<?php echo $about_counter_4; ?>" alt="Siftt" />
@@ -246,8 +241,7 @@ get_header();
 	***************************** -->
 	<section class="industries py-100 position-relative highlight-background overflow-hidden" id="industry">
 		<div class="container">
-			<div class="row justify-content-center" data-aos="fade-up" data-aos-duration="600"
-				data-aos-duration="500">
+			<div class="row justify-content-center" data-aos="fade-up" data-aos-duration="600" data-aos-duration="500">
 				<div class="col-md-10">
 					<div class="section-title-content text-center">
 						<h3 class="section-title"><?php echo $solution_main_title; ?><span class="highlight-title"> <?php echo $solution_highlight_title; ?><span></h3>
@@ -256,8 +250,7 @@ get_header();
 				</div>
 			</div>
 			<div class="row justify-content-center g-4">
-				<div class="col-md-4 col-6 col-lg-3" data-aos="fade-up" data-aos-duration="600"
-					data-aos-duration="500">
+				<div class="col-md-4 col-6 col-lg-3" data-aos="fade-up" data-aos-duration="600" data-aos-duration="500">
 					<div class="indus-block">
 						<div class="indus-img-block">
 							<img src="<?php echo $industry_image_1; ?>" alt="<?php echo $industry_1_title; ?>" />
@@ -265,8 +258,7 @@ get_header();
 						<h6> <?php echo $industry_1_title; ?></h6>
 					</div>
 				</div>
-				<div class="col-md-4 col-6 col-lg-3" data-aos="fade-up" data-aos-duration="600"
-					data-aos-duration="500">
+				<div class="col-md-4 col-6 col-lg-3" data-aos="fade-up" data-aos-duration="600" data-aos-duration="500">
 					<div class="indus-block">
 						<div class="indus-img-block">
 							<img src="<?php echo $industry_image_2; ?>" alt="<?php echo $industry_2_title; ?>" />
@@ -274,8 +266,7 @@ get_header();
 						<h6><?php echo $industry_2_title; ?></h6>
 					</div>
 				</div>
-				<div class="col-md-4 col-6 col-lg-3" data-aos="fade-up" data-aos-duration="600"
-					data-aos-duration="500">
+				<div class="col-md-4 col-6 col-lg-3" data-aos="fade-up" data-aos-duration="600" data-aos-duration="500">
 					<div class="indus-block">
 						<div class="indus-img-block">
 							<img src="<?php echo $industry_image_3; ?>" alt="<?php echo $industry_3_title; ?>" />
@@ -283,8 +274,7 @@ get_header();
 						<h6><?php echo $industry_3_title; ?></h6>
 					</div>
 				</div>
-				<div class="col-md-4 col-6 col-lg-3" data-aos="fade-up" data-aos-duration="600"
-					data-aos-duration="500">
+				<div class="col-md-4 col-6 col-lg-3" data-aos="fade-up" data-aos-duration="600" data-aos-duration="500">
 					<div class="indus-block">
 						<div class="indus-img-block">
 							<img src="<?php echo $industry_image_4; ?>" alt="<?php echo $industry_4_title; ?>" />
@@ -293,8 +283,7 @@ get_header();
 					</div>
 				</div>
 			</div>
-			<div class="row justify-content-center" data-aos="fade-up" data-aos-duration="600"
-				data-aos-duration="500">
+			<div class="row justify-content-center" data-aos="fade-up" data-aos-duration="600" data-aos-duration="500">
 				<div class="col-md-5">
 					<div class="view-btn-block text-center">
 						<a class="primary-btn view-btn" href="<?php echo $industry_button_link; ?>"><?php echo $industry_button_label; ?></a>
@@ -309,10 +298,10 @@ get_header();
 			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/industry-right.svg" alt="pattern" />
 		</div>
 		<div class="curve-shape-block">
-			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/shape-lg.svg" alt="">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/shape-lg.svg" alt="curve-shape">
 		</div>
 		<div class="curve-upper-shape-block">
-			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/shape-lg.svg" alt="">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/shape-lg.svg" alt="curve-upper-shape">
 		</div>
 	</section>
 	<!-- *****************************
@@ -320,326 +309,318 @@ get_header();
 	***************************** -->
 
 	<!-- *****************************
-        features section html start here
-        ***************************** -->
-        <section class="features my-80 position-relative overflow-hidden" id="feature">
-            <div class="container">
-                <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="600"
-                    data-aos-duration="500">
-                    <div class="col-md-10">
-                        <div class="section-title-content text-center">
-                            <h3 class="section-title"><?php echo $feature_main_title; ?><span class="highlight-title"><?php echo $feature_highlight_title; ?></span></h3>
-                            <p class="content"><?php echo $feature_description; ?></p>
-                        </div>
+    features section html start here
+    ***************************** -->
+    <section class="features my-80 position-relative overflow-hidden" id="feature">
+        <div class="container">
+            <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="600" data-aos-duration="500">
+                <div class="col-md-10">
+                    <div class="section-title-content text-center">
+                        <h3 class="section-title"><?php echo $feature_main_title; ?> <span class="highlight-title"><?php echo $feature_highlight_title; ?></span></h3>
+                        <p class="content"><?php echo $feature_description; ?></p>
                     </div>
                 </div>
-                <div class="feature-wrapper">
-                    <div class="row justify-content-center g-0">
-                        <div class="col-md-6 col-lg-6 col-xl-4" data-aos="fade-up" data-aos-duration="600"
-                            data-aos-duration="500">
-                            <div class="feature-block">
-                                <div class="feature-img-block">
-                                    <img src="<?php echo $feature_image_1; ?>" alt="<?php echo $feature_title_1; ?>" />
-                                </div>
-                                <div>
-                                    <h6><?php echo $feature_title_1; ?></h6>
-                                    <p class="content"><?php echo $feature_content_1; ?></p>
-                                </div>
+            </div>
+            <div class="feature-wrapper">
+                <div class="row justify-content-center g-0">
+                    <div class="col-md-6 col-lg-6 col-xl-4" data-aos="fade-up" data-aos-duration="600" data-aos-duration="500">
+                        <div class="feature-block">
+                            <div class="feature-img-block">
+                                <img src="<?php echo $feature_image_1; ?>" alt="<?php echo $feature_title_1; ?>" />
+                            </div>
+                            <div>
+                                <h6><?php echo $feature_title_1; ?></h6>
+                                <p class="content"><?php echo $feature_content_1; ?></p>
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-6 col-xl-4" data-aos="fade-up" data-aos-duration="600"
-                            data-aos-duration="500">
-                            <div class="feature-block">
-                                <div class="feature-img-block">
-                                    <img src="<?php echo $feature_image_2; ?>" alt="<?php echo $feature_title_2; ?>" />
-                                </div>
-                                <div>
-                                    <h6><?php echo $feature_title_2; ?></h6>
-                                    <p class="content"><?php echo $feature_content_2; ?></p>
-                                </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-4" data-aos="fade-up" data-aos-duration="600" data-aos-duration="500">
+                        <div class="feature-block">
+                            <div class="feature-img-block">
+                                <img src="<?php echo $feature_image_2; ?>" alt="<?php echo $feature_title_2; ?>" />
+                            </div>
+                            <div>
+                                <h6><?php echo $feature_title_2; ?></h6>
+                                <p class="content"><?php echo $feature_content_2; ?></p>
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-6 col-xl-4" data-aos="fade-up" data-aos-duration="600"
-                            data-aos-duration="500">
-                            <div class="feature-block">
-                                <div class="feature-img-block">
-                                    <img src="<?php echo $feature_image_3; ?>" alt="<?php echo $feature_title_3; ?>" />
-                                </div>
-                                <div>
-                                    <h6><?php echo $feature_title_3; ?></h6>
-                                    <p class="content"><?php echo $feature_content_3; ?></p>
-                                </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-4" data-aos="fade-up" data-aos-duration="600" data-aos-duration="500">
+                        <div class="feature-block">
+                            <div class="feature-img-block">
+                                <img src="<?php echo $feature_image_3; ?>" alt="<?php echo $feature_title_3; ?>" />
+                            </div>
+                            <div>
+                                <h6><?php echo $feature_title_3; ?></h6>
+                                <p class="content"><?php echo $feature_content_3; ?></p>
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-6 col-xl-4" data-aos="fade-up" data-aos-duration="600"
-                            data-aos-duration="500">
-                            <div class="feature-block">
-                                <div class="feature-img-block">
-                                    <img src="<?php echo $feature_image_4; ?>" alt="<?php echo $feature_title_4; ?>" />
-                                </div>
-                                <div>
-                                    <h6><?php echo $feature_title_4; ?></h6>
-                                    <p class="content"><?php echo $feature_content_4; ?></p>
-                                </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-4" data-aos="fade-up" data-aos-duration="600" data-aos-duration="500">
+                        <div class="feature-block">
+                            <div class="feature-img-block">
+                                <img src="<?php echo $feature_image_4; ?>" alt="<?php echo $feature_title_4; ?>" />
+                            </div>
+                            <div>
+                                <h6><?php echo $feature_title_4; ?></h6>
+                                <p class="content"><?php echo $feature_content_4; ?></p>
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-6 col-xl-4" data-aos="fade-up" data-aos-duration="600"
-                            data-aos-duration="500">
-                            <div class="feature-block mt-15">
-                                <div class="feature-img-block">
-                                    <img src="<?php echo $feature_image_5; ?>" alt="<?php echo $feature_title_5; ?>" />
-                                </div>
-                                <div>
-                                    <h6><?php echo $feature_title_5; ?></h6>
-                                    <p class="content"><?php echo $feature_content_5; ?></p>
-                                </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-4" data-aos="fade-up" data-aos-duration="600" data-aos-duration="500">
+                        <div class="feature-block mt-15">
+                            <div class="feature-img-block">
+                                <img src="<?php echo $feature_image_5; ?>" alt="<?php echo $feature_title_5; ?>" />
+                            </div>
+                            <div>
+                                <h6><?php echo $feature_title_5; ?></h6>
+                                <p class="content"><?php echo $feature_content_5; ?></p>
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-6 col-xl-4" data-aos="fade-up" data-aos-duration="600"
-                            data-aos-duration="500">
-                            <div class="feature-block mt-15">
-                                <div class="feature-img-block">
-                                    <img src="<?php echo $feature_image_6; ?>" alt="<?php echo $feature_title_6; ?>" />
-                                </div>
-                                <div>
-                                    <h6><?php echo $feature_title_6; ?></h6>
-                                    <p class="content"><?php echo $feature_content_6; ?></p>
-                                </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-4" data-aos="fade-up" data-aos-duration="600" data-aos-duration="500">
+                        <div class="feature-block mt-15">
+                            <div class="feature-img-block">
+                                <img src="<?php echo $feature_image_6; ?>" alt="<?php echo $feature_title_6; ?>" />
+                            </div>
+                            <div>
+                                <h6><?php echo $feature_title_6; ?></h6>
+                                <p class="content"><?php echo $feature_content_6; ?></p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="left-pattern-box bottom-white-pattern">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/feature-left.svg" alt="pattern" />
-            </div>
-            <div class="right-pattern-box">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/feature-right.svg" alt="pattern" />
-            </div>
-        </section>
-        <!-- *****************************
-        features section html end here
-        ***************************** -->
+        </div>
+        <div class="left-pattern-box bottom-white-pattern">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/feature-left.svg" alt="pattern" />
+        </div>
+        <div class="right-pattern-box">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/feature-right.svg" alt="pattern" />
+        </div>
+    </section>
+    <!-- *****************************
+    features section html end here
+    ***************************** -->
 
-	    <!-- *******************************
-        testimonials section html start here
-        ******************************** -->
-        <section class="testimonial py-100 position-relative highlight-background" id="testimonial">
-            <div class="container">
-                <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="600" data-aos-duration="500">
-                    <div class="col-md-10">
-                        <div class="section-title-content text-center">
-                            <h3 class="section-title"><?php echo $testimonial_main_title; ?><span class="highlight-title"> <?php echo $testimonial_highlight_title; ?></span></h3>
-                        </div>
+    <!-- *******************************
+    testimonials section html start here
+    ******************************** -->
+    <section class="testimonial py-100 position-relative highlight-background" id="testimonial">
+        <div class="container">
+            <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="600" data-aos-duration="500">
+                <div class="col-md-10">
+                    <div class="section-title-content text-center">
+                        <h3 class="section-title"><?php echo $testimonial_main_title; ?><span class="highlight-title"> <?php echo $testimonial_highlight_title; ?></span></h3>
                     </div>
                 </div>
             </div>
-            <div class="container-fluid">
-                <div class="row" data-aos="fade-up" data-aos-duration="600" data-aos-duration="500">
-                    <div class="col-md-12">
-                        <div class="owl-carousel owl-theme client-slider">
-                            <div class="client-card">
-                                <div class="client-comments">
-                                    <p><?php echo $testimonial_description_1; ?></p>
-                                </div>
-                                <div class="d-flex client-flex">                                    
-                                    <div class="flex-grow-1 ms-0 client-title">
-                                        <div>
-                                            <h5><?php echo $testimonial_name_1; ?></h5>
-                                            <span><?php echo $testimonial_location_1; ?></span>
-                                        </div>
-                                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/comma.svg" alt="Siftt" />
-                                    </div>
-                                </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row" data-aos="fade-up" data-aos-duration="600" data-aos-duration="500">
+                <div class="col-md-12">
+                    <div class="owl-carousel owl-theme client-slider">
+                        <div class="client-card">
+                            <div class="client-comments">
+                                <p><?php echo $testimonial_description_1; ?></p>
                             </div>
-                            <div class="client-card">
-                                <div class="client-comments">
-                                    <p><?php echo $testimonial_description_2; ?></p>
-                                </div>
-                                <div class="d-flex client-flex">                                    
-                                    <div class="flex-grow-1 ms-0 client-title">
-                                        <div>
-                                            <h5><?php echo $testimonial_name_2; ?></h5>
-                                            <span><?php echo $testimonial_location_2; ?></span>
-                                        </div>
-                                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/comma.svg" alt="Siftt" />
+                            <div class="d-flex client-flex">                                    
+                                <div class="flex-grow-1 ms-0 client-title">
+                                    <div>
+                                        <h5><?php echo $testimonial_name_1; ?></h5>
+                                        <span><?php echo $testimonial_location_1; ?></span>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="client-card">
-                                <div class="client-comments">
-                                    <p><?php echo $testimonial_description_3; ?></p>
-                                </div>
-                                <div class="d-flex client-flex">
-                                    <div class="flex-grow-1 ms-0 client-title">
-                                        <div>
-                                            <h5><?php echo $testimonial_name_3; ?></h5>
-                                            <span><?php echo $testimonial_location_3; ?></span>
-                                        </div>
-                                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/comma.svg" alt="Siftt" />
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="client-card">
-                                <div class="client-comments">
-                                    <p><?php echo $testimonial_description_4; ?></p>
-                                </div>
-                                <div class="d-flex client-flex">
-                                    <div class="flex-grow-1 ms-0 client-title">
-                                        <div>
-                                            <h5><?php echo $testimonial_name_4; ?></h5>
-                                            <span><?php echo $testimonial_location_4; ?></span>
-                                        </div>
-                                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/comma.svg" alt="Siftt" />
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="client-card">
-                                <div class="client-comments">
-                                    <p><?php echo $testimonial_description_5; ?></p>
-                                </div>
-                                <div class="d-flex client-flex">
-                                    <div class="flex-grow-1 ms-0 client-title">
-                                        <div>
-                                            <h5><?php echo $testimonial_name_5; ?></h5>
-                                            <span><?php echo $testimonial_location_5; ?></span>
-                                        </div>
-                                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/comma.svg" alt="Siftt" />
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="client-card">
-                                <div class="client-comments">
-                                    <p><?php echo $testimonial_description_6; ?></p>
-                                </div>
-                                <div class="d-flex client-flex">
-                                    <div class="flex-grow-1 ms-0 client-title">
-                                        <div>
-                                            <h5><?php echo $testimonial_name_6; ?></h5>
-                                            <span><?php echo $testimonial_location_6; ?></span>
-                                        </div>
-                                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/comma.svg" alt="Siftt" />
-                                    </div>
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/comma.svg" alt="Siftt" />
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                </div>
-            </div>            
-            <div class="right-pattern-box blue-right-top">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/testimonial-right.svg" alt="pattern" />
-            </div>
-            <div class="curve-shape-block">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/shape-lg.svg" alt="">
-            </div>
-            <div class="curve-upper-shape-block">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/shape-lg.svg" alt="">
-            </div>
-        </section>
-        <!-- *****************************
-        testimonials section html end here
-        *********************************-->
-
-	    <!-- **********************
-        FAQ section html start here
-        ***************************-->
-        <section class="faq my-80 position-relative overflow-hidden" id="faq">
-            <div class="container">
-                <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="600"
-                    data-aos-duration="500">
-                    <div class="col-md-10">
-                        <div class="section-title-content text-center">
-                            <h3 class="section-title"><?php echo $faq_main_title; ?><span class="highlight-title"><?php echo $faq_highlight_title; ?></span>
-                            </h3>
+                        <div class="client-card">
+                            <div class="client-comments">
+                                <p><?php echo $testimonial_description_2; ?></p>
+                            </div>
+                            <div class="d-flex client-flex">                                    
+                                <div class="flex-grow-1 ms-0 client-title">
+                                    <div>
+                                        <h5><?php echo $testimonial_name_2; ?></h5>
+                                        <span><?php echo $testimonial_location_2; ?></span>
+                                    </div>
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/comma.svg" alt="Siftt" />
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="accordion-block">
-                            <div class="accordion" id="accordionExample">
-                                <div class="accordion-item" data-aos="fade-up" data-aos-duration="600" data-aos-duration="500">
-                                    <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            <p><?php echo $faq_question_1; ?></p>
-                                        </button>
-                                    </h2>
-                                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <p class="content"><?php echo $faq_answer_1; ?></p>
-                                        </div>
+                        <div class="client-card">
+                            <div class="client-comments">
+                                <p><?php echo $testimonial_description_3; ?></p>
+                            </div>
+                            <div class="d-flex client-flex">
+                                <div class="flex-grow-1 ms-0 client-title">
+                                    <div>
+                                        <h5><?php echo $testimonial_name_3; ?></h5>
+                                        <span><?php echo $testimonial_location_3; ?></span>
                                     </div>
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/comma.svg" alt="Siftt" />
                                 </div>
-                                <div class="accordion-item" data-aos="fade-up" data-aos-duration="600" data-aos-duration="500">
-                                    <h2 class="accordion-header" id="headingTwo">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            <p><?php echo $faq_question_2; ?></p>
-                                        </button>
-                                    </h2>
-                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <p class="content"><?php echo $faq_answer_2; ?></p>
-                                        </div>
+                            </div>
+                        </div>
+                        <div class="client-card">
+                            <div class="client-comments">
+                                <p><?php echo $testimonial_description_4; ?></p>
+                            </div>
+                            <div class="d-flex client-flex">
+                                <div class="flex-grow-1 ms-0 client-title">
+                                    <div>
+                                        <h5><?php echo $testimonial_name_4; ?></h5>
+                                        <span><?php echo $testimonial_location_4; ?></span>
                                     </div>
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/comma.svg" alt="Siftt" />
                                 </div>
-
-                                <div class="accordion-item" data-aos="fade-up" data-aos-duration="600" data-aos-duration="500">
-                                    <h2 class="accordion-header" id="headingThree">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                            <p><?php echo $faq_question_3; ?></p>
-                                        </button>
-                                    </h2>
-                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <p class="content"><?php echo $faq_answer_3; ?></p>
-                                        </div>
+                            </div>
+                        </div>
+                        <div class="client-card">
+                            <div class="client-comments">
+                                <p><?php echo $testimonial_description_5; ?></p>
+                            </div>
+                            <div class="d-flex client-flex">
+                                <div class="flex-grow-1 ms-0 client-title">
+                                    <div>
+                                        <h5><?php echo $testimonial_name_5; ?></h5>
+                                        <span><?php echo $testimonial_location_5; ?></span>
                                     </div>
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/comma.svg" alt="Siftt" />
                                 </div>
-
-                                <div class="accordion-item" data-aos="fade-up" data-aos-duration="600" data-aos-duration="500">
-                                    <h2 class="accordion-header" id="headingFour">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                            <p><?php echo $faq_question_4; ?></p>
-                                        </button>
-                                    </h2>
-                                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <p class="content"><?php echo $faq_answer_4; ?></p>
-                                        </div>
+                            </div>
+                        </div>
+                        <div class="client-card">
+                            <div class="client-comments">
+                                <p><?php echo $testimonial_description_6; ?></p>
+                            </div>
+                            <div class="d-flex client-flex">
+                                <div class="flex-grow-1 ms-0 client-title">
+                                    <div>
+                                        <h5><?php echo $testimonial_name_6; ?></h5>
+                                        <span><?php echo $testimonial_location_6; ?></span>
                                     </div>
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/comma.svg" alt="Siftt" />
                                 </div>
-
-                                <div class="accordion-item" data-aos="fade-up" data-aos-duration="600" data-aos-duration="500">
-                                    <h2 class="accordion-header" id="headingFive">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                            <p><?php echo $faq_question_5; ?></p>
-                                        </button>
-                                    </h2>
-                                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <p class="content"><?php echo $faq_answer_5; ?></p>
-                                        </div>
-                                    </div>
-                                </div>
-
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
-            <div class="left-pattern-box bottom-white-pattern">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about-left.svg" alt="pattern" />
+        </div>            
+        <div class="right-pattern-box blue-right-top">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/testimonial-right.svg" alt="pattern" />
+        </div>
+        <div class="curve-shape-block">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/shape-lg.svg" alt="curve-shape">
+        </div>
+        <div class="curve-upper-shape-block">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/shape-lg.svg" alt="curve-upper-shape">
+        </div>
+    </section>
+    <!-- *****************************
+    testimonials section html end here
+    *********************************-->
+
+    <!-- **********************
+    FAQ section html start here
+    ***************************-->
+    <section class="faq my-80 position-relative overflow-hidden" id="faq">
+        <div class="container">
+            <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="600" data-aos-duration="500">
+                <div class="col-md-10">
+                    <div class="section-title-content text-center">
+                        <h3 class="section-title"><?php echo $faq_main_title; ?> <span class="highlight-title"><?php echo $faq_highlight_title; ?></span>
+                        </h3>
+                    </div>
+                </div>
             </div>
-            <div class="right-pattern-box">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about-right.svg" alt="pattern" />
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="accordion-block">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item" data-aos="fade-up" data-aos-duration="600" data-aos-duration="500">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <p><?php echo $faq_question_1; ?></p>
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p class="content"><?php echo $faq_answer_1; ?></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item" data-aos="fade-up" data-aos-duration="600" data-aos-duration="500">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <p><?php echo $faq_question_2; ?></p>
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p class="content"><?php echo $faq_answer_2; ?></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item" data-aos="fade-up" data-aos-duration="600" data-aos-duration="500">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        <p><?php echo $faq_question_3; ?></p>
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p class="content"><?php echo $faq_answer_3; ?></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item" data-aos="fade-up" data-aos-duration="600" data-aos-duration="500">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        <p><?php echo $faq_question_4; ?></p>
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p class="content"><?php echo $faq_answer_4; ?></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item" data-aos="fade-up" data-aos-duration="600" data-aos-duration="500">
+                                <h2 class="accordion-header" id="headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        <p><?php echo $faq_question_5; ?></p>
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p class="content"><?php echo $faq_answer_5; ?></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
             </div>
-        </section>
-        <!-- ********************
-        FAQ section html end here
-        *************************-->
+        </div>
+        <div class="left-pattern-box bottom-white-pattern">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about-left.svg" alt="pattern" />
+        </div>
+        <div class="right-pattern-box">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about-right.svg" alt="pattern" />
+        </div>
+    </section>
+    <!-- ********************
+    FAQ section html end here
+    *************************-->
 
 <?php
 	endwhile;
-get_footer();
+    get_footer();

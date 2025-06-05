@@ -89,5 +89,4 @@ function footer_customizer_settings($wp_customize)
     
 }
 add_action('customize_register', 'footer_customizer_settings');
-
 ?>

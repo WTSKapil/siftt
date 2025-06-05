@@ -16,7 +16,7 @@ function solution_customizer_settings($wp_customize)
     $wp_customize->add_setting('solution_main_title', array(
         'default'     => 'Ways to Assess Your ',
         'transport'   => 'refresh',
-        'sanitize_callback' => 'sanitize_custom_url',
+        'sanitize_callback' => 'sanitize_text_field',
     ));
 
     $wp_customize->add_control('solution_main_title', array(
@@ -28,7 +28,7 @@ function solution_customizer_settings($wp_customize)
     $wp_customize->add_setting('solution_highlight_title', array(
         'default'     => 'Industry',
         'transport'   => 'refresh',
-        'sanitize_callback' => 'sanitize_custom_url',
+        'sanitize_callback' => 'sanitize_text_field',
     ));
 
     $wp_customize->add_control('solution_highlight_title', array(
@@ -40,7 +40,7 @@ function solution_customizer_settings($wp_customize)
     $wp_customize->add_setting('solution_description', array(
         'default'     => "Siftt's assessment solutions are widely used across several sectors. To find the ideal candidates for training, speed up self-learning, recruit the right individuals, and deliver extremely secure assessments, use online tests and quizzes. With thousands of ready-to-use questions, professionally-designed skill tests, and configurable templates, our quiz library lets you get started right away.",
         'transport'   => 'refresh',
-        'sanitize_callback' => 'sanitize_custom_url',
+        'sanitize_callback' => 'sanitize_text_field',
     ));
 
     $wp_customize->add_control('solution_description', array(
@@ -64,7 +64,7 @@ function solution_customizer_settings($wp_customize)
     $wp_customize->add_setting('industry_1_title', array(
         'default'     => 'Groups and Non-Profit',
         'transport'   => 'refresh',
-        'sanitize_callback' => 'sanitize_custom_url',
+        'sanitize_callback' => 'sanitize_text_field',
     ));
 
     $wp_customize->add_control('industry_1_title', array(
@@ -88,7 +88,7 @@ function solution_customizer_settings($wp_customize)
     $wp_customize->add_setting('industry_2_title', array(
         'default'     => 'Vehicles',
         'transport'   => 'refresh',
-        'sanitize_callback' => 'sanitize_custom_url',
+        'sanitize_callback' => 'sanitize_text_field',
     ));
 
     $wp_customize->add_control('industry_2_title', array(
@@ -112,7 +112,7 @@ function solution_customizer_settings($wp_customize)
     $wp_customize->add_setting('industry_3_title', array(
         'default'     => 'Investing',
         'transport'   => 'refresh',
-        'sanitize_callback' => 'sanitize_custom_url',
+        'sanitize_callback' => 'sanitize_text_field',
     ));
 
     $wp_customize->add_control('industry_3_title', array(
@@ -136,7 +136,7 @@ function solution_customizer_settings($wp_customize)
     $wp_customize->add_setting('industry_4_title', array(
         'default'     => 'Biotechnology',
         'transport'   => 'refresh',
-        'sanitize_callback' => 'sanitize_custom_url',
+        'sanitize_callback' => 'sanitize_text_field',
     ));
 
     $wp_customize->add_control('industry_4_title', array(
@@ -148,7 +148,7 @@ function solution_customizer_settings($wp_customize)
     $wp_customize->add_setting('industry_button_label', array(
         'default'     => 'View More',
         'transport'   => 'refresh',
-        'sanitize_callback' => 'sanitize_custom_url',
+        'sanitize_callback' => 'sanitize_text_field',
     ));
 
     $wp_customize->add_control('industry_button_label', array(
@@ -160,7 +160,7 @@ function solution_customizer_settings($wp_customize)
     $wp_customize->add_setting('industry_button_link', array(
         'default'     => '#',
         'transport'   => 'refresh',
-        'sanitize_callback' => 'sanitize_custom_url',
+        'sanitize_callback' => 'sanitize_text_field',
     ));
 
     $wp_customize->add_control('industry_button_link', array(
@@ -173,5 +173,4 @@ function solution_customizer_settings($wp_customize)
     
 }
 add_action('customize_register', 'solution_customizer_settings');
-
 ?>

@@ -27,7 +27,7 @@ function cd_customizer_settings($wp_customize) {
     $wp_customize->add_setting('header_right_button_label', array(
         'default'     => 'FAQ',
         'transport'   => 'refresh',
-        'sanitize_callback' => 'sanitize_custom_label',
+        'sanitize_callback' => 'sanitize_text_field',
     ));
 
     $wp_customize->add_control('header_right_button_label', array(

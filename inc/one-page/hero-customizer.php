@@ -16,7 +16,7 @@ function hero_customizer_settings($wp_customize)
     $wp_customize->add_setting('hero_main_title', array(
         'default'     => 'The Most Efficient Online',
         'transport'   => 'refresh',
-        'sanitize_callback' => 'sanitize_custom_url',
+        'sanitize_callback' => 'sanitize_text_field',
     ));
 
     $wp_customize->add_control('hero_main_title', array(
@@ -28,7 +28,7 @@ function hero_customizer_settings($wp_customize)
     $wp_customize->add_setting('hero_highlight_title', array(
         'default'     => 'Test',
         'transport'   => 'refresh',
-        'sanitize_callback' => 'sanitize_custom_url',
+        'sanitize_callback' => 'sanitize_text_field',
     ));
 
     $wp_customize->add_control('hero_highlight_title', array(
@@ -40,7 +40,7 @@ function hero_customizer_settings($wp_customize)
     $wp_customize->add_setting('hero_sub_title', array(
         'default'     => 'Maker for finding the Right Talent',
         'transport'   => 'refresh',
-        'sanitize_callback' => 'sanitize_custom_url',
+        'sanitize_callback' => 'sanitize_text_field',
     ));
 
     $wp_customize->add_control('hero_sub_title', array(
@@ -52,7 +52,7 @@ function hero_customizer_settings($wp_customize)
     $wp_customize->add_setting('hero_description', array(
         'default'     => 'Create and publish online exams with ease, and analyze replies in real time to properly discover the best prospects for your business.',
         'transport'   => 'refresh',
-        'sanitize_callback' => 'sanitize_custom_url',
+        'sanitize_callback' => 'sanitize_text_field',
     ));
 
     $wp_customize->add_control('hero_description', array(
@@ -64,7 +64,7 @@ function hero_customizer_settings($wp_customize)
     $wp_customize->add_setting('hero_btn_label', array(
         'default'     => 'Request a Demo',
         'transport'   => 'refresh',
-        'sanitize_callback' => 'sanitize_custom_url',
+        'sanitize_callback' => 'sanitize_text_field',
     ));
 
     $wp_customize->add_control('hero_btn_label', array(
@@ -88,7 +88,7 @@ function hero_customizer_settings($wp_customize)
     $wp_customize->add_setting('hero_screen_title_1', array(
         'default'     => 'Simple to Utilize',
         'transport'   => 'refresh',
-        'sanitize_callback' => 'sanitize_custom_url',
+        'sanitize_callback' => 'sanitize_text_field',
     ));
 
     $wp_customize->add_control('hero_screen_title_1', array(
@@ -100,7 +100,7 @@ function hero_customizer_settings($wp_customize)
     $wp_customize->add_setting('hero_screen_title_2', array(
         'default'     => 'Reliable',
         'transport'   => 'refresh',
-        'sanitize_callback' => 'sanitize_custom_url',
+        'sanitize_callback' => 'sanitize_text_field',
     ));
 
     $wp_customize->add_control('hero_screen_title_2', array(
@@ -112,7 +112,7 @@ function hero_customizer_settings($wp_customize)
     $wp_customize->add_setting('hero_screen_title_3', array(
         'default'     => 'Safeguard',
         'transport'   => 'refresh',
-        'sanitize_callback' => 'sanitize_custom_url',
+        'sanitize_callback' => 'sanitize_text_field',
     ));
 
     $wp_customize->add_control('hero_screen_title_3', array(

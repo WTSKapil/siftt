@@ -15,7 +15,7 @@ function feature_customizer_settings($wp_customize) {
     $wp_customize->add_setting('feature_main_title', array(
         'default'     => 'Important ',
         'transport'   => 'refresh',
-        'sanitize_callback' => 'sanitize_custom_url',
+        'sanitize_callback' => 'sanitize_text_field',
     ));
 
     $wp_customize->add_control('feature_main_title', array(
@@ -27,7 +27,7 @@ function feature_customizer_settings($wp_customize) {
     $wp_customize->add_setting('feature_highlight_title', array(
         'default'     => 'Elements',
         'transport'   => 'refresh',
-        'sanitize_callback' => 'sanitize_custom_url',
+        'sanitize_callback' => 'sanitize_text_field',
     ));
 
     $wp_customize->add_control('feature_highlight_title', array(
@@ -39,7 +39,7 @@ function feature_customizer_settings($wp_customize) {
     $wp_customize->add_setting('feature_description', array(
         'default'     => 'Our online quiz creator is straightforward and user-friendly. It has all the functionality you need to easily design quantitative, interesting tests that are tailored to your needs.',
         'transport'   => 'refresh',
-        'sanitize_callback' => 'sanitize_custom_url',
+        'sanitize_callback' => 'sanitize_text_field',
     ));
 
     $wp_customize->add_control('feature_description', array(
@@ -63,7 +63,7 @@ function feature_customizer_settings($wp_customize) {
     $wp_customize->add_setting('feature_title_1', array(
         'default'     => 'Access from Anywhere',
         'transport'   => 'refresh',
-        'sanitize_callback' => 'sanitize_custom_url',
+        'sanitize_callback' => 'sanitize_text_field',
     ));
 
     $wp_customize->add_control('feature_title_1', array(
@@ -75,7 +75,7 @@ function feature_customizer_settings($wp_customize) {
     $wp_customize->add_setting('feature_content_1', array(
         'default'     => 'Your quizzes may be accessed, administered, and taken at any time and from any location since they are accessible online for both you and your responders.',
         'transport'   => 'refresh',
-        'sanitize_callback' => 'sanitize_custom_url',
+        'sanitize_callback' => 'sanitize_text_field',
     ));
 
     $wp_customize->add_control('feature_content_1', array(
@@ -99,7 +99,7 @@ function feature_customizer_settings($wp_customize) {
     $wp_customize->add_setting('feature_title_2', array(
         'default'     => 'Your Test, Your Way',
         'transport'   => 'refresh',
-        'sanitize_callback' => 'sanitize_custom_url',
+        'sanitize_callback' => 'sanitize_text_field',
     ));
 
     $wp_customize->add_control('feature_title_2', array(
@@ -111,7 +111,7 @@ function feature_customizer_settings($wp_customize) {
     $wp_customize->add_setting('feature_content_2', array(
         'default'     => "Start from zero or make use of one of our beautiful templates. Use your company's logo to personalize your quiz so that it matches your website, marketing, and other materials.",
         'transport'   => 'refresh',
-        'sanitize_callback' => 'sanitize_custom_url',
+        'sanitize_callback' => 'sanitize_text_field',
     ));
 
     $wp_customize->add_control('feature_content_2', array(
@@ -135,7 +135,7 @@ function feature_customizer_settings($wp_customize) {
     $wp_customize->add_setting('feature_title_3', array(
         'default'     => 'Sounds and Visions',
         'transport'   => 'refresh',
-        'sanitize_callback' => 'sanitize_custom_url',
+        'sanitize_callback' => 'sanitize_text_field',
     ));
 
     $wp_customize->add_control('feature_title_3', array(
@@ -147,7 +147,7 @@ function feature_customizer_settings($wp_customize) {
     $wp_customize->add_setting('feature_content_3', array(
         'default'     => 'Add extra media, such as pictures, videos, and audio files. Additionally, our quiz features offer media choices that increase participation and completion rates.',
         'transport'   => 'refresh',
-        'sanitize_callback' => 'sanitize_custom_url',
+        'sanitize_callback' => 'sanitize_text_field',
     ));
 
     $wp_customize->add_control('feature_content_3', array(
@@ -171,7 +171,7 @@ function feature_customizer_settings($wp_customize) {
     $wp_customize->add_setting('feature_title_4', array(
         'default'     => 'One Test, Every Device',
         'transport'   => 'refresh',
-        'sanitize_callback' => 'sanitize_custom_url',
+        'sanitize_callback' => 'sanitize_text_field',
     ));
 
     $wp_customize->add_control('feature_title_4', array(
@@ -183,7 +183,7 @@ function feature_customizer_settings($wp_customize) {
     $wp_customize->add_setting('feature_content_4', array(
         'default'     => 'Every delivery platform—including desktop, laptop, tablet, and smartphone—has your test automatically simplified. Make once, then share everywhere.',
         'transport'   => 'refresh',
-        'sanitize_callback' => 'sanitize_custom_url',
+        'sanitize_callback' => 'sanitize_text_field',
     ));
 
     $wp_customize->add_control('feature_content_4', array(
@@ -207,7 +207,7 @@ function feature_customizer_settings($wp_customize) {
     $wp_customize->add_setting('feature_title_5', array(
         'default'     => 'Ensure the Security of the Quiz Data',
         'transport'   => 'refresh',
-        'sanitize_callback' => 'sanitize_custom_url',
+        'sanitize_callback' => 'sanitize_text_field',
     ));
 
     $wp_customize->add_control('feature_title_5', array(
@@ -219,7 +219,7 @@ function feature_customizer_settings($wp_customize) {
     $wp_customize->add_setting('feature_content_5', array(
         'default'     => 'Data security is essential for any virtual community where privacy is involved. To give piece of mind, our assessment maker has top-notch, end-to-end security.',
         'transport'   => 'refresh',
-        'sanitize_callback' => 'sanitize_custom_url',
+        'sanitize_callback' => 'sanitize_text_field',
     ));
 
     $wp_customize->add_control('feature_content_5', array(
@@ -243,7 +243,7 @@ function feature_customizer_settings($wp_customize) {
     $wp_customize->add_setting('feature_title_6', array(
         'default'     => 'Quick Understanding',
         'transport'   => 'refresh',
-        'sanitize_callback' => 'sanitize_custom_url',
+        'sanitize_callback' => 'sanitize_text_field',
     ));
 
     $wp_customize->add_control('feature_title_6', array(
@@ -255,7 +255,7 @@ function feature_customizer_settings($wp_customize) {
     $wp_customize->add_setting('feature_content_6', array(
         'default'     => 'Our quiz tool records participation in real time and calculates scores. For more focused insights, personalize links to each quiz taker and segment reports.',
         'transport'   => 'refresh',
-        'sanitize_callback' => 'sanitize_custom_url',
+        'sanitize_callback' => 'sanitize_text_field',
     ));
 
     $wp_customize->add_control('feature_content_6', array(

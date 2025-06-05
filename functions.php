@@ -52,11 +52,10 @@ function siftt_setup() {
 			'menu-1' => esc_html__( 'Primary', 'siftt' ),
 		)
 	);
-
 	/*
-		* Switch default core markup for search form, comment form, and comments
-		* to output valid HTML5.
-		*/
+    * Switch default core markup for search form, comment form, and comments
+    * to output valid HTML5.
+    */
 	add_theme_support(
 		'html5',
 		array(
@@ -226,26 +225,6 @@ function my_theme_enqueue_scripts() {
     wp_add_inline_script('aos', 'AOS.init();');
     wp_add_inline_script('owl-carousel', '
         jQuery(document).ready(function($) {
-            $(".blog-slider").owlCarousel({
-                loop: true,
-                autoplay: true,
-                margin: 20,
-                nav: true,
-                navText: [\'<span class="fa-solid fa-angle-left fa-2x"></span>\', \'<span class="fa-solid fa-angle-right fa-2x"></span>\'],
-                dots: false,
-                items: 4,
-                autoplayTimeout: 4000,
-                smartSpeed: 400,
-                responsive: {
-                    0: { items: 1 },
-                    380: { items: 1 },
-                    700: { items: 2 },
-                    800: { items: 2 },
-                    1000: { items: 3 },
-                    1200: { items: 3 }
-                }
-            });
-
             $(".client-slider").owlCarousel({
                 loop: true,
                 autoplay: true,

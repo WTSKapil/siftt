@@ -18,9 +18,10 @@
         $copyright_text = get_theme_mod( 'copyright_text',"© 2025 Siftt. All Rights Reserved." );
 		$powerby_text = get_theme_mod( 'powerby_text',"Powered by&nbsp;<a href='https://wingstechsolutions.com'>Wings Tech</a>" );
     ?>
+        <!-- Start Footer -->
         <section class="social position-relative">
             <div class="container">
-                <div class="row" data-aos="fade-up" data-aos-duration="600" data-aos-duration="500">
+                <div class="row" data-aos="fade-up" data-aos-duration="600" >
                     <div class="col-md-12">
                         <ul class="text-center social-list">
                             <li>
@@ -40,15 +41,15 @@
                             <?php 
                                 $menu = 'footer-menu';
                                 $args = array(
-                                        'order'                  => 'ASC',
-                                        'orderby'                => 'menu_order',
-                                        'post_type'              => 'nav_menu_item',
-                                        'post_status'            => 'publish',
-                                        'output'                 => ARRAY_A,
-                                        'output_key'             => 'menu_order',
-                                        'nopaging'               => true,
-                                        'update_post_term_cache' => false 
-                                    );
+                                    'order'                  => 'ASC',
+                                    'orderby'                => 'menu_order',
+                                    'post_type'              => 'nav_menu_item',
+                                    'post_status'            => 'publish',
+                                    'output'                 => ARRAY_A,
+                                    'output_key'             => 'menu_order',
+                                    'nopaging'               => true,
+                                    'update_post_term_cache' => false 
+                                );
                                 $heitems = wp_get_nav_menu_items( $menu, $args ); 
                                 //echo '<pre>'; print_r($heitems);
 
@@ -66,10 +67,9 @@
             </div>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/social-bg.svg" alt="" class="curvy-img" />
         </section>
-    
+        <!-- End Start Footer -->
 	</div>
 <?php wp_footer(); ?>
-
     
 </body>
 </html>

@@ -17,9 +17,7 @@
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#02A1F5">
-	
-	
+    <meta name="theme-color" content="#02A1F5">	
 
 	<?php wp_head(); ?>
 </head>
@@ -29,7 +27,7 @@
 
 <?php
 	$header_logo = get_theme_mod( 'header_logo', get_stylesheet_directory_uri()."/assets/images/logo.svg" );
-	echo $header_right_button_label = get_theme_mod( 'header_right_button_label',"FAQ" );
+	$header_right_button_label = get_theme_mod( 'header_right_button_label',"FAQ" );
 ?>
 
 <div data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
@@ -53,15 +51,15 @@
 								<?php 
 									$menu = 'main-menu';
 									$args = array(
-												'order'                  => 'ASC',
-												'orderby'                => 'menu_order',
-												'post_type'              => 'nav_menu_item',
-												'post_status'            => 'publish',
-												'output'                 => ARRAY_A,
-												'output_key'             => 'menu_order',
-												'nopaging'               => true,
-												'update_post_term_cache' => false 
-											);
+										'order'                  => 'ASC',
+										'orderby'                => 'menu_order',
+										'post_type'              => 'nav_menu_item',
+										'post_status'            => 'publish',
+										'output'                 =>  ARRAY_A,
+										'output_key'             => 'menu_order',
+										'nopaging'               => true,
+										'update_post_term_cache' => false 
+									);
 									$heitems = wp_get_nav_menu_items( $menu, $args ); 
 									//echo '<pre>'; print_r($heitems);
 
