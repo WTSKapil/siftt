@@ -14,3 +14,73 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 
 This theme, like WordPress, is licensed under the GPL. 
 Use it to make something cool, have fun, and share what you've learned with others.
+
+/* Image Captions */
+.wp-caption {
+    max-width: 100%;
+    margin: 1em 0;
+    text-align: center;
+}
+
+.wp-caption img {
+    max-width: 100%;
+    height: auto;
+}
+
+.wp-caption-text {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 0.5em;
+}
+
+/* Gallery Captions */
+.gallery-caption {
+    font-size: 0.9em;
+    color: #777;
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+/* Author Comment Highlight */
+.bypostauthor {
+    border: 2px solid #ddd;
+    padding: 5px;
+}
+
+/* Image Alignment */
+.alignleft {
+    float: left;
+    margin: 0 1em 1em 0;
+}
+
+.alignright {
+    float: right;
+    margin: 0 0 1em 1em;
+}
+
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Screen Reader Text (Accessibility) */
+.screen-reader-text {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.screen-reader-text:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0;
+    clip: auto;
+    overflow: visible;
+}

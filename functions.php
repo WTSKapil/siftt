@@ -204,16 +204,16 @@ add_action('wp_enqueue_scripts', 'theme_enqueue_styles');
 
 function my_theme_enqueue_scripts() {
     // Register scripts
-    wp_register_script('jquery-3.6.2', get_stylesheet_directory_uri() . '/assets/js/jquery-3.6.2.min.js', array(), '3.6.2', true);
-    wp_register_script('owl-carousel', get_stylesheet_directory_uri() . '/assets/js/owl.carousel.min.js', array('jquery-3.6.2'), '2.3.4', true);
-    wp_register_script('slick', get_stylesheet_directory_uri() . '/assets/js/slick.min.js', array('jquery-3.6.2'), '1.8.1', true);
+    //wp_register_script('jquery-3.6.2', get_stylesheet_directory_uri() . '/assets/js/jquery-3.6.2.min.js', array(), '3.6.2', true);
+    wp_register_script('owl-carousel', get_stylesheet_directory_uri() . '/assets/js/owl.carousel.min.js', array('jquery'), '2.3.4', true);
+    wp_register_script('slick', get_stylesheet_directory_uri() . '/assets/js/slick.min.js', array('jquery'), '1.8.1', true);
     wp_register_script('aos', 'https://unpkg.com/aos@2.3.1/dist/aos.js', array(), '2.3.1', true);
-    wp_register_script('typed', get_stylesheet_directory_uri() . '/assets/js/typed.min.js', array('jquery-3.6.2'), '2.0.12', true);
+    wp_register_script('typed', get_stylesheet_directory_uri() . '/assets/js/typed.min.js', array('jquery'), '2.0.12', true);
     wp_register_script('popper', get_stylesheet_directory_uri() . '/assets/js/popper.min.js', array(), '2.10.2', true);
-    wp_register_script('bootstrap', get_stylesheet_directory_uri() . '/assets/js/bootstrap.min.js', array('jquery-3.6.2', 'popper'), '4.6.0', true);
+    wp_register_script('bootstrap', get_stylesheet_directory_uri() . '/assets/js/bootstrap.min.js', array('jquery', 'popper'), '4.6.0', true);
 
     // Enqueue scripts
-    wp_enqueue_script('jquery-3.6.2');
+    //wp_enqueue_script('jquery-3.6.2');
     wp_enqueue_script('owl-carousel');
     wp_enqueue_script('slick');
     wp_enqueue_script('aos');
